@@ -29,10 +29,13 @@ grazioso-salvare-dashboard/
  │   └── animals.csv     # Sample dataset
  └── README.md
 
-🚀 How to Run
+## 🚀 How to Run
 
-Clone the repo: git clone https://github.com/collynk/grazioso-salvare-dashboard.git
+Clone the repo:  
+```bash
+git clone https://github.com/collynk/grazioso-salvare-dashboard.git
 cd grazioso-salvare-dashboard
+
 
 Install dependencies:
 pip install -r requirements.txt
