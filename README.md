@@ -1,21 +1,37 @@
+# Grazioso Salvare Animal Rescue Dashboard
 
-Project Functionality
-This project is a dashboard that helps track rescue animals based on their fit for different types of rescue work, like Water Rescue, Mountain/Wilderness Rescue, and Disaster/Individual Tracking. It shows animal info in a table, includes a map for their locations, and lets you filter by rescue type.
+This project is a **data dashboard** that tracks rescue animals and evaluates their suitability for different types of rescue work (e.g., Water Rescue, Mountain/Wilderness Rescue, Disaster/Individual Tracking).  
 
-Features
-Data Filtering: Select rescue types from a dropdown to filter animals.
-Dynamic Table: Displays filtered animal data such as breed, age, and outcome.
-Map Visualization: Shows the animal's location on an interactive map.
-Chart: Displays breed distribution based on the selected rescue type.
+It was built to demonstrate **Python programming, CRUD operations, data visualization, and dashboard development**.
 
-Tools Used
-Python: Programming language.
-Dash Framework: For building the dashboard with interactive components.
-MongoDB: Used to store and retrieve animal data.
-Leaflet.js: For map integration in Dash.
+---
 
-Setup
-Clone or download the project zip files.
-Ensure Python and required packages are installed.
-Run the project in a Jupyter notebook or any Python IDE.
-The dashboard will run locally at http://127.0.0.1:8050/
+## 📌 Features
+- **Data Filtering** → Select rescue types from a dropdown menu to filter animals.  
+- **Dynamic Table** → Displays filtered animal data (breed, age, outcome).  
+- **Map Visualization** → Shows animal locations on an interactive map (Leaflet.js).  
+- **Charts** → Visualizes breed distribution by rescue type.  
+- **CRUD Functionality** → Manage rescue animal records with `project_crud.py`.  
+
+---
+
+## 🛠 Tech Stack
+- **Language:** Python  
+- **Frameworks:** Dash (Plotly), Jupyter Notebook  
+- **Database:** MongoDB (animal rescue data storage & retrieval)  
+- **Visualization:** Leaflet.js (map integration), Plotly charts  
+
+---
+
+## 📂 Repository Contents
+- `project_crud.py` → Python CRUD operations for MongoDB.  
+- `projectwoo.ipynb` → Jupyter Notebook with dashboard implementation.  
+- `README.md` → Documentation (this file).  
+
+---
+
+## 🚀 How to Run
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/collynk/grazioso-salvare-dashboard.git
+   cd grazioso-salvare-dashboard
