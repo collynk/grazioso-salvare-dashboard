@@ -20,22 +20,10 @@ It was built to demonstrate **Python programming, data visualization, and intera
 
 ---
 
-## 📂 Project Structure
-```text
-grazioso-salvare-dashboard/
- ├── app.py              # Main dashboard app
- ├── requirements.txt    # Dependencies
- ├── data/
- │   └── animals.csv     # Sample dataset
- └── README.md
-
-## 🚀 How to Run
-
-Clone the repo:  
-```bash
+🚀 How to Run
+Clone the repo:
 git clone https://github.com/collynk/grazioso-salvare-dashboard.git
 cd grazioso-salvare-dashboard
-
 
 Install dependencies:
 pip install -r requirements.txt
@@ -45,7 +33,6 @@ python app.py
 
 Open the dashboard in your browser:
 http://127.0.0.1:8050/
-
 
 🎓 Academic Context
 
@@ -65,3 +52,14 @@ Add MongoDB integration for live CRUD operations.
 Include map visualization (Leaflet.js).
 
 Deploy dashboard to cloud (Heroku, Render, AWS).
+
+## 📂 Project Structure
+```text
+grazioso-salvare-dashboard/
+ ├── app.py              # Main dashboard app
+ ├── requirements.txt    # Dependencies
+ ├── data/
+ │   └── animals.csv     # Sample dataset
+ └── README.md
+
+
