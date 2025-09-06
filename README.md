@@ -1,37 +1,64 @@
 # Grazioso Salvare Animal Rescue Dashboard
 
-This project is a **data dashboard** that tracks rescue animals and evaluates their suitability for different types of rescue work (e.g., Water Rescue, Mountain/Wilderness Rescue, Disaster/Individual Tracking).  
+This project is a **data dashboard** that tracks rescue animals and evaluates their suitability for different types of rescue work (e.g., Water Rescue, Mountain/Wilderness Rescue, Disaster/Tracking).  
 
-It was built to demonstrate **Python programming, CRUD operations, data visualization, and dashboard development**.
+It was built to demonstrate **Python programming, data visualization, and interactive dashboard development**.
 
 ---
 
 ## 📌 Features
 - **Data Filtering** → Select rescue types from a dropdown menu to filter animals.  
-- **Dynamic Table** → Displays filtered animal data (breed, age, outcome).  
-- **Map Visualization** → Shows animal locations on an interactive map (Leaflet.js).  
+- **Dynamic Table** → Displays filtered animal data (breed, age).  
 - **Charts** → Visualizes breed distribution by rescue type.  
-- **CRUD Functionality** → Manage rescue animal records with `project_crud.py`.  
 
 ---
 
 ## 🛠 Tech Stack
 - **Language:** Python  
-- **Frameworks:** Dash (Plotly), Jupyter Notebook  
-- **Database:** MongoDB (animal rescue data storage & retrieval)  
-- **Visualization:** Leaflet.js (map integration), Plotly charts  
+- **Frameworks:** Dash (Plotly)  
+- **Libraries:** Pandas  
 
 ---
 
-## 📂 Repository Contents
-- `project_crud.py` → Python CRUD operations for MongoDB.  
-- `projectwoo.ipynb` → Jupyter Notebook with dashboard implementation.  
-- `README.md` → Documentation (this file).  
+## 📂 Project Structure
+```text
+grazioso-salvare-dashboard/
+ ├── app.py              # Main dashboard app
+ ├── requirements.txt    # Dependencies
+ ├── data/
+ │   └── animals.csv     # Sample dataset
+ └── README.md
 
----
+🚀 How to Run
 
-## 🚀 How to Run
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/collynk/grazioso-salvare-dashboard.git
-   cd grazioso-salvare-dashboard
+Clone the repo: git clone https://github.com/collynk/grazioso-salvare-dashboard.git
+cd grazioso-salvare-dashboard
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the app:
+python app.py
+
+Open the dashboard in your browser:
+http://127.0.0.1:8050/
+
+
+🎓 Academic Context
+
+This project was completed as part of the SNHU Computer Science program.
+It demonstrates:
+
+Building interactive dashboards in Python.
+
+Filtering and visualizing datasets.
+
+Clear documentation and reproducibility.
+
+📈 Future Improvements
+
+Add MongoDB integration for live CRUD operations.
+
+Include map visualization (Leaflet.js).
+
+Deploy dashboard to cloud (Heroku, Render, AWS).
